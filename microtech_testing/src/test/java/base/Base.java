@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 
 public class Base {
 public static WebDriver driver;
+public static String name;
 	
 	public static void getUrl(String url) {
 		driver.get(url);
